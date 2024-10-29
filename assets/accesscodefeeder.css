@@ -1,0 +1,56 @@
+/*
+Access Code Feeder JS
+
+*/
+
+td.feeder-name{
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+width: 100%;
+}
+
+.feeders-global-loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 26px solid yellow;
+  border-right: 26px solid green;
+  border-bottom: 26px solid blue;
+  border-left: 26px solid red;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;  
+  z-index: 99;
+}
+
+.feeders-local-loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 13px solid yellow;
+  border-right: 13px solid green;
+  border-bottom: 13px solid blue;
+  border-left: 13px solid red;
+  width: 25px;
+  height: 25px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position: relative; /* in block */
+  top: 50%;
+  left: 50%;  
+  z-index: 99;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

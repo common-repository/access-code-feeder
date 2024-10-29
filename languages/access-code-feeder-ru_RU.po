@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Access Code Feeder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-10 12:52+0000\n"
+"PO-Revision-Date: 2020-04-10 12:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.1.4"
+
+#: access-code-feeder.php:122
+#, php-format
+msgid ""
+" \tHello %%USERNAME%%<br/>\n"
+"\t\tFeeder '%%FEEDERNAME%%' now has %%CODECOUNT%% access codes left.<br/>\n"
+"\t\tYou've received this email because the Feeder is <a href='%%CONFIGURL%%'>"
+"configured</a> to notify the owner on low content count. <br/>\n"
+"\t\t<br/>\t\t\n"
+"\t\tHave a nice day!<br/>\n"
+"\t\t<a href='%%SITEURL%%'>%%SITENAME%%</a> \n"
+"\t\t"
+msgstr ""
+"Здраствуйте,  %%USERNAME%%<br/>\n"
+"\t\tВ Фидере '%%FEEDERNAME%%' осталось %%CODECOUNT%% кодов доступа.<br/>\n"
+"\t\tВы получили это письмо, потому что в <a href='%%CONFIGURL%%'>настройках "
+"Фидера</a> включены оповещения. <br/>\n"
+"\t\t<br/>\t\n"
+"\t\tХорошего дня!<br/>\n"
+"\t\t<a href='%%SITEURL%%'>%%SITENAME%%</a> \n"
+"\t\t"
+
+#: access-code-feeder.php:135
+#, php-format
+msgid "Feeder '%%FEEDERNAME%%' requires attention !"
+msgstr "Фидеру '%%FEEDERNAME%%' требуется ревизия"
+
+#. Name of the plugin
+#: access-code-feeder.php:188 access-code-feeder.php:208
+msgid "Access Code Feeder"
+msgstr "Фидер Кодов Доступа"
+
+#: access-code-feeder.php:211
+msgid ""
+"Use Feeders to pass unique access code to chat bots, merchant software, etc."
+msgstr ""
+"Используйте Фидеры для передачи уникальных Кодов Доступа в чат-боты, "
+"магазины, и т.д."
+
+#: access-code-feeder.php:213
+msgid ""
+"<a target=_new href=\"https://www.youtube.com/watch?"
+"v=v0WAz8OyY28&list=PLRv0B44q8TR8bWrEwtMd6e17oW8wdRVIv&index=4\">Watch "
+"Video</a>"
+msgstr ""
+"<a target=_new href=\"https://www.youtube.com/watch?"
+"v=v0WAz8OyY28&list=PLRv0B44q8TR8bWrEwtMd6e17oW8wdRVIv&index=4\">Посмотрите "
+"Видео</a>"
+
+#: access-code-feeder.php:223
+msgid "Base URL"
+msgstr "Базовая URL"
+
+#: access-code-feeder.php:226 access-code-feeder.php:431
+msgid "just a second..."
+msgstr "секундочку..."
+
+#: access-code-feeder.php:235
+msgid ""
+"Please <a href=\"/wp-login.php?action=register\">Register</a> or <a "
+"href=\"/wp-login.php\">Login</a> to access this page !"
+msgstr ""
+"Для доступа к этой странице пожалуйста <a href=\"/wp-login.php\">Войдите</a> "
+"или <a href=\"/wp-login.php?action=register\">Зарегистрируйтесь</a>."
+
+#: access-code-feeder.php:243
+msgid "Feeders"
+msgstr "Фидеры"
+
+#: access-code-feeder.php:244 access-code-feeder.php:657
+msgid "Create new Feeder"
+msgstr "Создать новый Фидер"
+
+#: access-code-feeder.php:244
+msgid "New Feeder"
+msgstr "Новый Фидер"
+
+#: access-code-feeder.php:245
+msgid "Refresh the list of Feeders"
+msgstr "Обновить список Фидеров"
+
+#: access-code-feeder.php:245
+msgid "Refresh List"
+msgstr "Обновить список"
+
+#: access-code-feeder.php:251 access-code-feeder.php:681
+msgid "Feeder Name"
+msgstr "Имя Фидера"
+
+#: access-code-feeder.php:252
+msgid "Mode"
+msgstr "Тип"
+
+#: access-code-feeder.php:253
+msgid "Items"
+msgstr "Элементы"
+
+#: access-code-feeder.php:254
+msgid "Actions"
+msgstr "Действия"
+
+#: access-code-feeder.php:354
+msgid "Too many Feeders"
+msgstr "Слишком много Фидеров"
+
+#: access-code-feeder.php:396
+msgid "feed Top item, than Remove it"
+msgstr "подать верхний элемент, и удалить его"
+
+#: access-code-feeder.php:397
+msgid "feed Random item, than Remove it"
+msgstr "подать случайный элемент, и удалить его"
+
+#: access-code-feeder.php:398
+msgid "feed Random item, than Keep it"
+msgstr "подать случайный элемент, и сохранить его"
+
+#: access-code-feeder.php:404 access-code-feeder.php:566
+msgid "Access Codes"
+msgstr "Коды Доступа"
+
+#: access-code-feeder.php:404
+msgid "Contents"
+msgstr "Содержимое"
+
+#: access-code-feeder.php:405
+msgid "Feeder URLs"
+msgstr "Адреса Фидера"
+
+#: access-code-feeder.php:405
+msgid "Usage"
+msgstr "Использование"
+
+#: access-code-feeder.php:406
+msgid "Settings of the Feeder"
+msgstr "Настройки Фидера"
+
+#: access-code-feeder.php:406
+msgid "Settings"
+msgstr "Установки"
+
+#: access-code-feeder.php:407
+msgid "Delete Feeder"
+msgstr "Удалить Фидер"
+
+#: access-code-feeder.php:407
+msgid "Delete"
+msgstr "Удалить"
+
+#: access-code-feeder.php:418
+msgid "UNIQUE_FEEDER_KEY"
+msgstr "УНИКАЛЬНЫЙ_КЛЮЧ_ФИДЕРА"
+
+#: access-code-feeder.php:422
+msgid "Please enter Base Path"
+msgstr "Пожалуйста введите Базовую URL"
+
+#: access-code-feeder.php:424
+msgid "Set"
+msgstr "Установить"
+
+#: access-code-feeder.php:425 access-code-feeder.php:574
+#: access-code-feeder.php:704
+msgid "Cancel"
+msgstr "Отмена"
+
+#: access-code-feeder.php:449
+msgid "Error while saving Base Url"
+msgstr "Ошибка при сохранении Базовой URL "
+
+#: access-code-feeder.php:459
+msgid "Change Path to the Feeder"
+msgstr "Изменить путь к Фидеру"
+
+#: access-code-feeder.php:463
+msgid "Please note"
+msgstr "Обратите внимание"
+
+#: access-code-feeder.php:464
+msgid ""
+"URLs of all your Feeders has been changed. Please adjust your software "
+"accordingly!"
+msgstr ""
+"Адреса всех Фидеров были изменены! Пожалуйста измените настройки ПО, "
+"использующего Фидеры."
+
+#: access-code-feeder.php:483 access-code-feeder.php:747
+msgid "Feeder"
+msgstr "Фидер"
+
+#: access-code-feeder.php:485
+msgid "will be permanently deleted!"
+msgstr "будет удален!"
+
+#: access-code-feeder.php:486
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: access-code-feeder.php:508 access-code-feeder.php:737
+msgid "Error deleting Feeder"
+msgstr "Ошибка при удалении Фидера"
+
+#: access-code-feeder.php:535
+msgid "Error refreshing Feeders List"
+msgstr "Ошибка при доступе к списку Фидеров"
+
+#: access-code-feeder.php:559
+msgid "Paste Access Codes here"
+msgstr "Вставьте Коды доступа"
+
+#: access-code-feeder.php:562
+msgid ""
+"Enter one Access Code per line.<br>Lines must be 1-100 chars long, 1000 "
+"lines maximum."
+msgstr ""
+"Введите один Код Доступа, один на строку. Строки должны быть длиной 1-1000 "
+"символов, всего не более 1000 строк"
+
+#: access-code-feeder.php:566
+msgid "Contents of the Feeder"
+msgstr "Содержимое Фидера"
+
+#: access-code-feeder.php:570 access-code-feeder.php:665
+msgid "Save"
+msgstr "Сохранить"
+
+#: access-code-feeder.php:598
+msgid "Error saving Feeder Content"
+msgstr "Ошибка при сохранении содержимого Фидера"
+
+#: access-code-feeder.php:607
+msgid "Error fetching Feeder Content"
+msgstr "Ошибка доступа к содержимому Фидера"
+
+#: access-code-feeder.php:616
+msgid "Feeder URL"
+msgstr "URL Фидера"
+
+#: access-code-feeder.php:618
+msgid "When this URL is fetched, Access Code will be presented."
+msgstr "При обращении к этой URL будет возвращён уникальный Код Доступа"
+
+#: access-code-feeder.php:620
+msgid "If no Access Codes left in the Feeder, empty line will be returned."
+msgstr ""
+"Если в Фидере не осталось Кодов Доступа, будет возвращена пустая строка."
+
+#: access-code-feeder.php:622
+msgid "Using with Chat Bots"
+msgstr "Использование с чат-ботами"
+
+#: access-code-feeder.php:626
+msgid "Feeder Counter URL"
+msgstr "URL счётчика Фидера"
+
+#: access-code-feeder.php:628
+msgid "Counter URL returns number of Access Codes left in the Feeder."
+msgstr "URL Счётчика возвращает количество Кодов Доступа, оставшихся в Фидере"
+
+#: access-code-feeder.php:634
+msgid "Usage of the Feeder"
+msgstr "Использование Фидера"
+
+#: access-code-feeder.php:658
+msgid "Add Feeder"
+msgstr "Добавить Фидер"
+
+#: access-code-feeder.php:664
+msgid "Feeder Settings"
+msgstr "Настройки Фидера"
+
+#: access-code-feeder.php:683
+msgid "[TR] feed Top item, than Remove it"
+msgstr "[TR] подать верхний элемент, и удалить его"
+
+#: access-code-feeder.php:683
+msgid "[RR] feed Random item, than Remove it"
+msgstr "[RR] подать случайный элемент, и удалить его"
+
+#: access-code-feeder.php:683
+msgid "[RK] feed Random item, than Keep it"
+msgstr "[RK] подать случайный элемент, и сохранить его"
+
+#: access-code-feeder.php:684
+msgid "Feeder Mode"
+msgstr "Тип Фидера"
+
+#: access-code-feeder.php:688
+msgid "Notify when feeder contains"
+msgstr "Оповестить, когда в Фидере останется"
+
+#: access-code-feeder.php:688
+msgid "elements"
+msgstr "элементов"
+
+#: access-code-feeder.php:728
+msgid "Error Saving Feeder"
+msgstr "Ошибка при сохранении Фидера"
+
+#. Description of the plugin
+msgid "Feeds unique access codes to chat bots, merchant services, etc."
+msgstr "Подаёт уникальные Коды Доступа в чат-боты, магазины, и т.д."
+
+#. Author of the plugin
+msgid "Alexey Trofimov"
+msgstr "Алексей Трофимов"
